@@ -15,7 +15,7 @@ except Exception as e:
     exit()
 
 # Load dataset to get localities
-df = pd.read_csv("/Users/chitrabhanuhazra/Downloads/ CH CODING/PYTHON/HOUSE PRICE PREDICT 2/kolkata_house_prices.csv")
+df = pd.read_csv("CSV PATH HERE THE PATH OF kolkata_house_prices.csv")
 localities = df['locality'].unique()
 localities = sorted(localities)  # sort alphabetically
 print(f"Loaded {len(localities)} localities from dataset.")
