@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-df = pd.read_csv("/Users/chitrabhanuhazra/Downloads/ CH CODING/PYTHON/HOUSE PRICE PREDICT 2/kolkata_house_prices.csv")
+df = pd.read_csv("CSV PATH HERE THE PATH OF kolkata_house_prices.csv")
 
 # ----------------- Data Cleaning -----------------
 # Convert 'floor' column
